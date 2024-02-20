@@ -6,6 +6,7 @@ namespace CSharpBasics
     {
         static void Main(string[] args)
         {
+            //the text is stored as a sequential read-only collection of Char objects.
             string studentName = "Cihat";
             string studentSurname = "Çetin";
             string studentAge = "17";
