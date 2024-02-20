@@ -30,6 +30,9 @@ namespace CSharpBasics
             Console.WriteLine($"{studentName.Contains("h")} {studentSurname.Contains("h")}");
             // Contains() tool helps us relize whether it is present or not.
 
+            Console.WriteLine(studentSurname.Substring(3,2));
+            //If we use .Substring(7,3), the system bring eighth char of our string value and returns the two values behind it. The first intager show us the started piece. second intager show how many piece is printed. 
+     
             Console.ReadLine();
         }
     }
